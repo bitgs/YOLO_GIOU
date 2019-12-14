@@ -1,0 +1,798 @@
+model-epoch_20_step_57938_loss_0.4586_lr_0.0001
+
+Sun, 17 Nov 2019 15:49:01 INFO Restoring parameters from ./data/darknet_weights/yolov3.ckpt
+Sun, 17 Nov 2019 15:50:47 INFO Epoch: 0, global_step: 100 | loss: total: 2218.88, xy: 1.23, wh: 13.08, conf: 2160.34, class: 44.22 | Last batch: rec: 0.000, prec: 0.000 | lr: 1.2082e-06
+Sun, 17 Nov 2019 15:51:24 INFO Epoch: 0, global_step: 200 | loss: total: 1564.56, xy: 1.17, wh: 11.88, conf: 1509.72, class: 41.78 | Last batch: rec: 0.250, prec: 0.000 | lr: 2.4163e-06
+Sun, 17 Nov 2019 15:52:00 INFO Epoch: 0, global_step: 300 | loss: total: 1096.60, xy: 1.14, wh: 11.10, conf: 1043.86, class: 40.50 | Last batch: rec: 0.240, prec: 0.000 | lr: 3.6245e-06
+Sun, 17 Nov 2019 15:52:36 INFO Epoch: 0, global_step: 400 | loss: total: 838.45, xy: 1.12, wh: 10.33, conf: 787.64, class: 39.36 | Last batch: rec: 0.583, prec: 0.000 | lr: 4.8327e-06
+Sun, 17 Nov 2019 15:53:13 INFO Epoch: 0, global_step: 500 | loss: total: 681.24, xy: 1.10, wh: 9.55, conf: 632.46, class: 38.13 | Last batch: rec: 0.571, prec: 0.000 | lr: 6.0408e-06
+Sun, 17 Nov 2019 15:53:49 INFO Epoch: 0, global_step: 600 | loss: total: 575.26, xy: 1.09, wh: 8.83, conf: 528.61, class: 36.74 | Last batch: rec: 0.500, prec: 0.001 | lr: 7.249e-06
+Sun, 17 Nov 2019 15:54:26 INFO Epoch: 0, global_step: 700 | loss: total: 498.27, xy: 1.05, wh: 8.16, conf: 454.19, class: 34.88 | Last batch: rec: 0.636, prec: 0.000 | lr: 8.4572e-06
+Sun, 17 Nov 2019 15:55:02 INFO Epoch: 0, global_step: 800 | loss: total: 440.24, xy: 1.04, wh: 7.60, conf: 398.32, class: 33.28 | Last batch: rec: 0.857, prec: 0.001 | lr: 9.6653e-06
+Sun, 17 Nov 2019 15:55:39 INFO Epoch: 0, global_step: 900 | loss: total: 394.48, xy: 1.01, wh: 7.08, conf: 354.78, class: 31.61 | Last batch: rec: 0.714, prec: 0.000 | lr: 1.0874e-05
+Sun, 17 Nov 2019 15:56:15 INFO Epoch: 0, global_step: 1000 | loss: total: 357.62, xy: 1.00, wh: 6.61, conf: 319.90, class: 30.10 | Last batch: rec: 0.529, prec: 0.000 | lr: 1.2082e-05
+Sun, 17 Nov 2019 15:56:52 INFO Epoch: 0, global_step: 1100 | loss: total: 327.19, xy: 0.98, wh: 6.20, conf: 291.32, class: 28.69 | Last batch: rec: 0.733, prec: 0.001 | lr: 1.329e-05
+Sun, 17 Nov 2019 15:57:28 INFO Epoch: 0, global_step: 1200 | loss: total: 301.56, xy: 0.96, wh: 5.82, conf: 267.45, class: 27.33 | Last batch: rec: 0.400, prec: 0.000 | lr: 1.4498e-05
+Sun, 17 Nov 2019 15:58:05 INFO Epoch: 0, global_step: 1300 | loss: total: 279.81, xy: 0.95, wh: 5.50, conf: 247.24, class: 26.12 | Last batch: rec: 0.800, prec: 0.001 | lr: 1.5706e-05
+Sun, 17 Nov 2019 15:58:41 INFO Epoch: 0, global_step: 1400 | loss: total: 260.99, xy: 0.94, wh: 5.20, conf: 229.88, class: 24.98 | Last batch: rec: 0.250, prec: 0.000 | lr: 1.6914e-05
+Sun, 17 Nov 2019 15:59:18 INFO Epoch: 0, global_step: 1500 | loss: total: 244.62, xy: 0.92, wh: 4.93, conf: 214.82, class: 23.95 | Last batch: rec: 1.000, prec: 0.000 | lr: 1.8123e-05
+Sun, 17 Nov 2019 15:59:54 INFO Epoch: 0, global_step: 1600 | loss: total: 230.30, xy: 0.91, wh: 4.70, conf: 201.64, class: 23.05 | Last batch: rec: 0.667, prec: 0.000 | lr: 1.9331e-05
+Sun, 17 Nov 2019 16:00:31 INFO Epoch: 0, global_step: 1700 | loss: total: 217.64, xy: 0.90, wh: 4.50, conf: 190.00, class: 22.23 | Last batch: rec: 0.818, prec: 0.000 | lr: 2.0539e-05
+Sun, 17 Nov 2019 16:01:07 INFO Epoch: 0, global_step: 1800 | loss: total: 206.33, xy: 0.89, wh: 4.31, conf: 179.66, class: 21.47 | Last batch: rec: 0.250, prec: 0.000 | lr: 2.1747e-05
+Sun, 17 Nov 2019 16:01:43 INFO Epoch: 0, global_step: 1900 | loss: total: 196.19, xy: 0.89, wh: 4.13, conf: 170.39, class: 20.78 | Last batch: rec: 0.625, prec: 0.001 | lr: 2.2955e-05
+Sun, 17 Nov 2019 16:02:20 INFO Epoch: 0, global_step: 2000 | loss: total: 187.04, xy: 0.88, wh: 3.97, conf: 162.04, class: 20.15 | Last batch: rec: 0.889, prec: 0.000 | lr: 2.4163e-05
+Sun, 17 Nov 2019 16:02:57 INFO Epoch: 0, global_step: 2100 | loss: total: 178.70, xy: 0.87, wh: 3.82, conf: 154.48, class: 19.54 | Last batch: rec: 0.846, prec: 0.001 | lr: 2.5372e-05
+Sun, 17 Nov 2019 16:03:33 INFO Epoch: 0, global_step: 2200 | loss: total: 171.10, xy: 0.86, wh: 3.68, conf: 147.60, class: 18.96 | Last batch: rec: 0.579, prec: 0.001 | lr: 2.658e-05
+Sun, 17 Nov 2019 16:04:10 INFO Epoch: 0, global_step: 2300 | loss: total: 164.13, xy: 0.85, wh: 3.55, conf: 141.31, class: 18.43 | Last batch: rec: 0.625, prec: 0.000 | lr: 2.7788e-05
+Sun, 17 Nov 2019 16:04:46 INFO Epoch: 0, global_step: 2400 | loss: total: 157.77, xy: 0.85, wh: 3.43, conf: 135.55, class: 17.95 | Last batch: rec: 0.846, prec: 0.001 | lr: 2.8996e-05
+Sun, 17 Nov 2019 16:05:23 INFO Epoch: 0, global_step: 2500 | loss: total: 151.90, xy: 0.84, wh: 3.32, conf: 130.24, class: 17.50 | Last batch: rec: 0.880, prec: 0.001 | lr: 3.0204e-05
+Sun, 17 Nov 2019 16:06:00 INFO Epoch: 0, global_step: 2600 | loss: total: 146.44, xy: 0.83, wh: 3.22, conf: 125.33, class: 17.05 | Last batch: rec: 0.889, prec: 0.000 | lr: 3.1412e-05
+Sun, 17 Nov 2019 16:06:36 INFO Epoch: 0, global_step: 2700 | loss: total: 141.37, xy: 0.83, wh: 3.12, conf: 120.79, class: 16.63 | Last batch: rec: 0.846, prec: 0.001 | lr: 3.2621e-05
+Sun, 17 Nov 2019 16:07:15 INFO Epoch: 1, global_step: 2800 | loss: total: 8.65, xy: 0.61, wh: 0.58, conf: 2.45, class: 5.01 | Last batch: rec: 1.000, prec: 0.000 | lr: 3.3829e-05
+Sun, 17 Nov 2019 16:07:51 INFO Epoch: 1, global_step: 2900 | loss: total: 9.46, xy: 0.70, wh: 0.61, conf: 2.65, class: 5.50 | Last batch: rec: 0.875, prec: 0.000 | lr: 3.5037e-05
+Sun, 17 Nov 2019 16:08:28 INFO Epoch: 1, global_step: 3000 | loss: total: 9.48, xy: 0.71, wh: 0.59, conf: 2.68, class: 5.50 | Last batch: rec: 1.000, prec: 0.001 | lr: 3.6245e-05
+Sun, 17 Nov 2019 16:09:04 INFO Epoch: 1, global_step: 3100 | loss: total: 9.19, xy: 0.69, wh: 0.57, conf: 2.61, class: 5.33 | Last batch: rec: 0.900, prec: 0.000 | lr: 3.7453e-05
+Sun, 17 Nov 2019 16:09:41 INFO Epoch: 1, global_step: 3200 | loss: total: 8.97, xy: 0.68, wh: 0.56, conf: 2.55, class: 5.18 | Last batch: rec: 0.778, prec: 0.000 | lr: 3.8661e-05
+Sun, 17 Nov 2019 16:10:18 INFO Epoch: 1, global_step: 3300 | loss: total: 8.82, xy: 0.67, wh: 0.54, conf: 2.51, class: 5.10 | Last batch: rec: 0.786, prec: 0.001 | lr: 3.987e-05
+Sun, 17 Nov 2019 16:10:54 INFO Epoch: 1, global_step: 3400 | loss: total: 8.76, xy: 0.67, wh: 0.53, conf: 2.49, class: 5.06 | Last batch: rec: 0.625, prec: 0.001 | lr: 4.1078e-05
+Sun, 17 Nov 2019 16:11:31 INFO Epoch: 1, global_step: 3500 | loss: total: 8.78, xy: 0.68, wh: 0.53, conf: 2.51, class: 5.06 | Last batch: rec: 0.857, prec: 0.000 | lr: 4.2286e-05
+Sun, 17 Nov 2019 16:12:07 INFO Epoch: 1, global_step: 3600 | loss: total: 8.72, xy: 0.68, wh: 0.52, conf: 2.49, class: 5.03 | Last batch: rec: 0.926, prec: 0.001 | lr: 4.3494e-05
+Sun, 17 Nov 2019 16:12:44 INFO Epoch: 1, global_step: 3700 | loss: total: 8.68, xy: 0.68, wh: 0.52, conf: 2.49, class: 4.99 | Last batch: rec: 0.875, prec: 0.001 | lr: 4.4702e-05
+Sun, 17 Nov 2019 16:13:20 INFO Epoch: 1, global_step: 3800 | loss: total: 8.59, xy: 0.68, wh: 0.51, conf: 2.47, class: 4.93 | Last batch: rec: 0.923, prec: 0.001 | lr: 4.591e-05
+Sun, 17 Nov 2019 16:13:57 INFO Epoch: 1, global_step: 3900 | loss: total: 8.49, xy: 0.67, wh: 0.50, conf: 2.45, class: 4.86 | Last batch: rec: 1.000, prec: 0.001 | lr: 4.7119e-05
+Sun, 17 Nov 2019 16:14:34 INFO Epoch: 1, global_step: 4000 | loss: total: 8.47, xy: 0.67, wh: 0.50, conf: 2.46, class: 4.83 | Last batch: rec: 1.000, prec: 0.001 | lr: 4.8327e-05
+Sun, 17 Nov 2019 16:15:10 INFO Epoch: 1, global_step: 4100 | loss: total: 8.36, xy: 0.67, wh: 0.49, conf: 2.44, class: 4.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 4.9535e-05
+Sun, 17 Nov 2019 16:15:47 INFO Epoch: 1, global_step: 4200 | loss: total: 8.27, xy: 0.67, wh: 0.49, conf: 2.42, class: 4.69 | Last batch: rec: 1.000, prec: 0.001 | lr: 5.0743e-05
+Sun, 17 Nov 2019 16:16:23 INFO Epoch: 1, global_step: 4300 | loss: total: 8.20, xy: 0.67, wh: 0.49, conf: 2.41, class: 4.64 | Last batch: rec: 1.000, prec: 0.001 | lr: 5.1951e-05
+Sun, 17 Nov 2019 16:17:00 INFO Epoch: 1, global_step: 4400 | loss: total: 8.16, xy: 0.67, wh: 0.49, conf: 2.41, class: 4.59 | Last batch: rec: 0.962, prec: 0.001 | lr: 5.3159e-05
+Sun, 17 Nov 2019 16:17:37 INFO Epoch: 1, global_step: 4500 | loss: total: 8.14, xy: 0.67, wh: 0.49, conf: 2.42, class: 4.56 | Last batch: rec: 0.784, prec: 0.002 | lr: 5.4368e-05
+Sun, 17 Nov 2019 16:18:13 INFO Epoch: 1, global_step: 4600 | loss: total: 8.10, xy: 0.67, wh: 0.48, conf: 2.42, class: 4.52 | Last batch: rec: 0.621, prec: 0.001 | lr: 5.5576e-05
+Sun, 17 Nov 2019 16:18:50 INFO Epoch: 1, global_step: 4700 | loss: total: 8.05, xy: 0.67, wh: 0.48, conf: 2.42, class: 4.47 | Last batch: rec: 0.909, prec: 0.001 | lr: 5.6784e-05
+Sun, 17 Nov 2019 16:19:26 INFO Epoch: 1, global_step: 4800 | loss: total: 8.01, xy: 0.67, wh: 0.48, conf: 2.42, class: 4.43 | Last batch: rec: 0.750, prec: 0.000 | lr: 5.7992e-05
+Sun, 17 Nov 2019 16:20:03 INFO Epoch: 1, global_step: 4900 | loss: total: 7.97, xy: 0.67, wh: 0.48, conf: 2.43, class: 4.39 | Last batch: rec: 0.846, prec: 0.001 | lr: 5.92e-05
+Sun, 17 Nov 2019 16:20:39 INFO Epoch: 1, global_step: 5000 | loss: total: 7.94, xy: 0.67, wh: 0.48, conf: 2.42, class: 4.36 | Last batch: rec: 0.951, prec: 0.002 | lr: 6.0408e-05
+Sun, 17 Nov 2019 16:21:16 INFO Epoch: 1, global_step: 5100 | loss: total: 7.86, xy: 0.67, wh: 0.47, conf: 2.41, class: 4.31 | Last batch: rec: 0.722, prec: 0.001 | lr: 6.1617e-05
+Sun, 17 Nov 2019 16:21:53 INFO Epoch: 1, global_step: 5200 | loss: total: 7.80, xy: 0.67, wh: 0.47, conf: 2.40, class: 4.26 | Last batch: rec: 1.000, prec: 0.000 | lr: 6.2825e-05
+Sun, 17 Nov 2019 16:22:29 INFO Epoch: 1, global_step: 5300 | loss: total: 7.76, xy: 0.67, wh: 0.47, conf: 2.39, class: 4.23 | Last batch: rec: 0.600, prec: 0.000 | lr: 6.4033e-05
+Sun, 17 Nov 2019 16:23:06 INFO Epoch: 1, global_step: 5400 | loss: total: 7.70, xy: 0.67, wh: 0.47, conf: 2.38, class: 4.18 | Last batch: rec: 1.000, prec: 0.001 | lr: 6.5241e-05
+Sun, 17 Nov 2019 16:23:42 INFO Epoch: 1, global_step: 5500 | loss: total: 7.64, xy: 0.66, wh: 0.46, conf: 2.38, class: 4.13 | Last batch: rec: 1.000, prec: 0.001 | lr: 6.6449e-05
+Sun, 17 Nov 2019 16:24:27 INFO Epoch: 2, global_step: 5600 | loss: total: 5.41, xy: 0.62, wh: 0.33, conf: 1.77, class: 2.69 | Last batch: rec: 1.000, prec: 0.001 | lr: 6.7657e-05
+Sun, 17 Nov 2019 16:25:04 INFO Epoch: 2, global_step: 5700 | loss: total: 5.29, xy: 0.61, wh: 0.33, conf: 1.80, class: 2.56 | Last batch: rec: 1.000, prec: 0.001 | lr: 6.8866e-05
+Sun, 17 Nov 2019 16:25:41 INFO Epoch: 2, global_step: 5800 | loss: total: 5.53, xy: 0.63, wh: 0.34, conf: 1.87, class: 2.69 | Last batch: rec: 0.900, prec: 0.000 | lr: 7.0074e-05
+Sun, 17 Nov 2019 16:26:17 INFO Epoch: 2, global_step: 5900 | loss: total: 5.48, xy: 0.62, wh: 0.33, conf: 1.87, class: 2.66 | Last batch: rec: 1.000, prec: 0.001 | lr: 7.1282e-05
+Sun, 17 Nov 2019 16:26:54 INFO Epoch: 2, global_step: 6000 | loss: total: 5.44, xy: 0.62, wh: 0.34, conf: 1.87, class: 2.62 | Last batch: rec: 1.000, prec: 0.001 | lr: 7.249e-05
+Sun, 17 Nov 2019 16:27:30 INFO Epoch: 2, global_step: 6100 | loss: total: 5.42, xy: 0.61, wh: 0.34, conf: 1.87, class: 2.61 | Last batch: rec: 1.000, prec: 0.001 | lr: 7.3698e-05
+Sun, 17 Nov 2019 16:28:07 INFO Epoch: 2, global_step: 6200 | loss: total: 5.40, xy: 0.61, wh: 0.33, conf: 1.87, class: 2.59 | Last batch: rec: 0.789, prec: 0.001 | lr: 7.4906e-05
+Sun, 17 Nov 2019 16:28:43 INFO Epoch: 2, global_step: 6300 | loss: total: 5.36, xy: 0.61, wh: 0.33, conf: 1.87, class: 2.56 | Last batch: rec: 0.909, prec: 0.001 | lr: 7.6115e-05
+Sun, 17 Nov 2019 16:29:20 INFO Epoch: 2, global_step: 6400 | loss: total: 5.34, xy: 0.60, wh: 0.34, conf: 1.86, class: 2.53 | Last batch: rec: 0.962, prec: 0.001 | lr: 7.7323e-05
+Sun, 17 Nov 2019 16:29:56 INFO Epoch: 2, global_step: 6500 | loss: total: 5.30, xy: 0.60, wh: 0.34, conf: 1.86, class: 2.51 | Last batch: rec: 0.769, prec: 0.001 | lr: 7.8531e-05
+Sun, 17 Nov 2019 16:30:33 INFO Epoch: 2, global_step: 6600 | loss: total: 5.26, xy: 0.59, wh: 0.34, conf: 1.84, class: 2.48 | Last batch: rec: 1.000, prec: 0.001 | lr: 7.9739e-05
+Sun, 17 Nov 2019 16:31:09 INFO Epoch: 2, global_step: 6700 | loss: total: 5.25, xy: 0.59, wh: 0.33, conf: 1.84, class: 2.48 | Last batch: rec: 0.941, prec: 0.001 | lr: 8.0947e-05
+Sun, 17 Nov 2019 16:31:46 INFO Epoch: 2, global_step: 6800 | loss: total: 5.22, xy: 0.59, wh: 0.33, conf: 1.84, class: 2.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 8.2155e-05
+Sun, 17 Nov 2019 16:32:22 INFO Epoch: 2, global_step: 6900 | loss: total: 5.23, xy: 0.59, wh: 0.33, conf: 1.85, class: 2.47 | Last batch: rec: 0.875, prec: 0.000 | lr: 8.3364e-05
+Sun, 17 Nov 2019 16:32:59 INFO Epoch: 2, global_step: 7000 | loss: total: 5.27, xy: 0.59, wh: 0.34, conf: 1.86, class: 2.48 | Last batch: rec: 0.889, prec: 0.002 | lr: 8.4572e-05
+Sun, 17 Nov 2019 16:33:35 INFO Epoch: 2, global_step: 7100 | loss: total: 5.23, xy: 0.58, wh: 0.33, conf: 1.85, class: 2.46 | Last batch: rec: 0.944, prec: 0.001 | lr: 8.578e-05
+Sun, 17 Nov 2019 16:34:12 INFO Epoch: 2, global_step: 7200 | loss: total: 5.25, xy: 0.58, wh: 0.33, conf: 1.87, class: 2.46 | Last batch: rec: 0.929, prec: 0.001 | lr: 8.6988e-05
+Sun, 17 Nov 2019 16:34:48 INFO Epoch: 2, global_step: 7300 | loss: total: 5.24, xy: 0.58, wh: 0.33, conf: 1.87, class: 2.45 | Last batch: rec: 0.917, prec: 0.001 | lr: 8.8196e-05
+Sun, 17 Nov 2019 16:35:24 INFO Epoch: 2, global_step: 7400 | loss: total: 5.23, xy: 0.58, wh: 0.34, conf: 1.88, class: 2.44 | Last batch: rec: 0.864, prec: 0.001 | lr: 8.9404e-05
+Sun, 17 Nov 2019 16:36:01 INFO Epoch: 2, global_step: 7500 | loss: total: 5.24, xy: 0.58, wh: 0.33, conf: 1.88, class: 2.45 | Last batch: rec: 1.000, prec: 0.001 | lr: 9.0613e-05
+Sun, 17 Nov 2019 16:36:37 INFO Epoch: 2, global_step: 7600 | loss: total: 5.23, xy: 0.58, wh: 0.33, conf: 1.88, class: 2.44 | Last batch: rec: 1.000, prec: 0.001 | lr: 9.1821e-05
+Sun, 17 Nov 2019 16:37:14 INFO Epoch: 2, global_step: 7700 | loss: total: 5.21, xy: 0.57, wh: 0.33, conf: 1.88, class: 2.43 | Last batch: rec: 1.000, prec: 0.001 | lr: 9.3029e-05
+Sun, 17 Nov 2019 16:37:50 INFO Epoch: 2, global_step: 7800 | loss: total: 5.18, xy: 0.57, wh: 0.33, conf: 1.87, class: 2.41 | Last batch: rec: 1.000, prec: 0.000 | lr: 9.4237e-05
+Sun, 17 Nov 2019 16:38:27 INFO Epoch: 2, global_step: 7900 | loss: total: 5.16, xy: 0.57, wh: 0.33, conf: 1.87, class: 2.39 | Last batch: rec: 1.000, prec: 0.001 | lr: 9.5445e-05
+Sun, 17 Nov 2019 16:39:03 INFO Epoch: 2, global_step: 8000 | loss: total: 5.14, xy: 0.56, wh: 0.33, conf: 1.86, class: 2.38 | Last batch: rec: 1.000, prec: 0.001 | lr: 9.6653e-05
+Sun, 17 Nov 2019 16:39:40 INFO Epoch: 2, global_step: 8100 | loss: total: 5.14, xy: 0.56, wh: 0.33, conf: 1.87, class: 2.38 | Last batch: rec: 0.952, prec: 0.001 | lr: 9.7862e-05
+Sun, 17 Nov 2019 16:40:16 INFO Epoch: 2, global_step: 8200 | loss: total: 5.13, xy: 0.56, wh: 0.33, conf: 1.87, class: 2.37 | Last batch: rec: 1.000, prec: 0.001 | lr: 9.907e-05
+Sun, 17 Nov 2019 16:40:57 INFO Epoch: 3, global_step: 8300 | loss: total: 4.12, xy: 0.58, wh: 0.28, conf: 1.50, class: 1.77 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:41:34 INFO Epoch: 3, global_step: 8400 | loss: total: 4.12, xy: 0.55, wh: 0.30, conf: 1.57, class: 1.71 | Last batch: rec: 0.941, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 16:42:10 INFO Epoch: 3, global_step: 8500 | loss: total: 3.91, xy: 0.51, wh: 0.28, conf: 1.43, class: 1.69 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 16:42:47 INFO Epoch: 3, global_step: 8600 | loss: total: 3.87, xy: 0.51, wh: 0.28, conf: 1.46, class: 1.61 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:43:23 INFO Epoch: 3, global_step: 8700 | loss: total: 3.96, xy: 0.51, wh: 0.28, conf: 1.50, class: 1.67 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:44:00 INFO Epoch: 3, global_step: 8800 | loss: total: 3.94, xy: 0.51, wh: 0.28, conf: 1.51, class: 1.64 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:44:36 INFO Epoch: 3, global_step: 8900 | loss: total: 3.88, xy: 0.50, wh: 0.27, conf: 1.49, class: 1.62 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:45:13 INFO Epoch: 3, global_step: 9000 | loss: total: 3.92, xy: 0.50, wh: 0.28, conf: 1.51, class: 1.63 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:45:49 INFO Epoch: 3, global_step: 9100 | loss: total: 3.88, xy: 0.50, wh: 0.27, conf: 1.49, class: 1.62 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:46:25 INFO Epoch: 3, global_step: 9200 | loss: total: 3.86, xy: 0.49, wh: 0.27, conf: 1.48, class: 1.61 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 16:47:02 INFO Epoch: 3, global_step: 9300 | loss: total: 3.84, xy: 0.49, wh: 0.27, conf: 1.47, class: 1.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:47:38 INFO Epoch: 3, global_step: 9400 | loss: total: 3.81, xy: 0.49, wh: 0.27, conf: 1.46, class: 1.59 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 16:48:15 INFO Epoch: 3, global_step: 9500 | loss: total: 3.81, xy: 0.49, wh: 0.27, conf: 1.46, class: 1.59 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 16:48:51 INFO Epoch: 3, global_step: 9600 | loss: total: 3.83, xy: 0.49, wh: 0.27, conf: 1.47, class: 1.60 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 16:49:28 INFO Epoch: 3, global_step: 9700 | loss: total: 3.83, xy: 0.49, wh: 0.27, conf: 1.47, class: 1.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:50:04 INFO Epoch: 3, global_step: 9800 | loss: total: 3.82, xy: 0.48, wh: 0.27, conf: 1.47, class: 1.59 | Last batch: rec: 0.867, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:50:41 INFO Epoch: 3, global_step: 9900 | loss: total: 3.81, xy: 0.48, wh: 0.27, conf: 1.46, class: 1.59 | Last batch: rec: 0.941, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:51:17 INFO Epoch: 3, global_step: 10000 | loss: total: 3.83, xy: 0.49, wh: 0.27, conf: 1.47, class: 1.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:51:53 INFO Epoch: 3, global_step: 10100 | loss: total: 3.79, xy: 0.48, wh: 0.27, conf: 1.46, class: 1.59 | Last batch: rec: 0.909, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:52:30 INFO Epoch: 3, global_step: 10200 | loss: total: 3.77, xy: 0.48, wh: 0.27, conf: 1.45, class: 1.58 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:53:06 INFO Epoch: 3, global_step: 10300 | loss: total: 3.75, xy: 0.48, wh: 0.26, conf: 1.44, class: 1.57 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 16:53:43 INFO Epoch: 3, global_step: 10400 | loss: total: 3.74, xy: 0.48, wh: 0.26, conf: 1.44, class: 1.57 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:54:19 INFO Epoch: 3, global_step: 10500 | loss: total: 3.74, xy: 0.48, wh: 0.26, conf: 1.44, class: 1.56 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:54:56 INFO Epoch: 3, global_step: 10600 | loss: total: 3.73, xy: 0.47, wh: 0.26, conf: 1.43, class: 1.56 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:55:32 INFO Epoch: 3, global_step: 10700 | loss: total: 3.72, xy: 0.47, wh: 0.26, conf: 1.43, class: 1.56 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:56:08 INFO Epoch: 3, global_step: 10800 | loss: total: 3.72, xy: 0.47, wh: 0.26, conf: 1.43, class: 1.56 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:56:45 INFO Epoch: 3, global_step: 10900 | loss: total: 3.71, xy: 0.47, wh: 0.26, conf: 1.42, class: 1.55 | Last batch: rec: 0.900, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:57:21 INFO Epoch: 3, global_step: 11000 | loss: total: 3.69, xy: 0.47, wh: 0.26, conf: 1.42, class: 1.55 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 16:58:02 INFO Epoch: 4, global_step: 11100 | loss: total: 2.52, xy: 0.41, wh: 0.19, conf: 0.97, class: 0.95 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:58:39 INFO Epoch: 4, global_step: 11200 | loss: total: 2.53, xy: 0.40, wh: 0.20, conf: 0.95, class: 0.99 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:59:15 INFO Epoch: 4, global_step: 11300 | loss: total: 2.52, xy: 0.40, wh: 0.20, conf: 0.93, class: 1.00 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 16:59:51 INFO Epoch: 4, global_step: 11400 | loss: total: 2.57, xy: 0.40, wh: 0.20, conf: 0.95, class: 1.01 | Last batch: rec: 0.933, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:00:28 INFO Epoch: 4, global_step: 11500 | loss: total: 2.58, xy: 0.41, wh: 0.21, conf: 0.96, class: 1.01 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:01:04 INFO Epoch: 4, global_step: 11600 | loss: total: 2.55, xy: 0.40, wh: 0.20, conf: 0.95, class: 1.00 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:01:41 INFO Epoch: 4, global_step: 11700 | loss: total: 2.59, xy: 0.41, wh: 0.21, conf: 0.96, class: 1.02 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:02:17 INFO Epoch: 4, global_step: 11800 | loss: total: 2.60, xy: 0.41, wh: 0.20, conf: 0.95, class: 1.03 | Last batch: rec: 0.917, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:02:54 INFO Epoch: 4, global_step: 11900 | loss: total: 2.57, xy: 0.41, wh: 0.20, conf: 0.94, class: 1.02 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:03:30 INFO Epoch: 4, global_step: 12000 | loss: total: 2.56, xy: 0.41, wh: 0.20, conf: 0.94, class: 1.01 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 17:04:07 INFO Epoch: 4, global_step: 12100 | loss: total: 2.56, xy: 0.40, wh: 0.20, conf: 0.94, class: 1.01 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 17:04:43 INFO Epoch: 4, global_step: 12200 | loss: total: 2.57, xy: 0.40, wh: 0.20, conf: 0.95, class: 1.02 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 17:05:20 INFO Epoch: 4, global_step: 12300 | loss: total: 2.61, xy: 0.41, wh: 0.20, conf: 0.96, class: 1.04 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:05:56 INFO Epoch: 4, global_step: 12400 | loss: total: 2.62, xy: 0.41, wh: 0.21, conf: 0.97, class: 1.04 | Last batch: rec: 0.955, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:06:32 INFO Epoch: 4, global_step: 12500 | loss: total: 2.65, xy: 0.41, wh: 0.21, conf: 0.98, class: 1.05 | Last batch: rec: 0.833, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:07:09 INFO Epoch: 4, global_step: 12600 | loss: total: 2.63, xy: 0.41, wh: 0.20, conf: 0.97, class: 1.04 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:07:45 INFO Epoch: 4, global_step: 12700 | loss: total: 2.61, xy: 0.41, wh: 0.20, conf: 0.97, class: 1.04 | Last batch: rec: 0.933, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:08:22 INFO Epoch: 4, global_step: 12800 | loss: total: 2.61, xy: 0.41, wh: 0.20, conf: 0.96, class: 1.03 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:08:58 INFO Epoch: 4, global_step: 12900 | loss: total: 2.62, xy: 0.41, wh: 0.20, conf: 0.97, class: 1.04 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:09:35 INFO Epoch: 4, global_step: 13000 | loss: total: 2.64, xy: 0.41, wh: 0.21, conf: 0.98, class: 1.04 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:10:11 INFO Epoch: 4, global_step: 13100 | loss: total: 2.65, xy: 0.41, wh: 0.21, conf: 0.99, class: 1.05 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:10:48 INFO Epoch: 4, global_step: 13200 | loss: total: 2.65, xy: 0.41, wh: 0.21, conf: 0.99, class: 1.05 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:11:24 INFO Epoch: 4, global_step: 13300 | loss: total: 2.66, xy: 0.41, wh: 0.21, conf: 0.99, class: 1.05 | Last batch: rec: 0.941, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:12:00 INFO Epoch: 4, global_step: 13400 | loss: total: 2.66, xy: 0.41, wh: 0.21, conf: 1.00, class: 1.05 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:12:37 INFO Epoch: 4, global_step: 13500 | loss: total: 2.66, xy: 0.41, wh: 0.21, conf: 1.00, class: 1.05 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:13:13 INFO Epoch: 4, global_step: 13600 | loss: total: 2.65, xy: 0.41, wh: 0.21, conf: 0.99, class: 1.04 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:13:50 INFO Epoch: 4, global_step: 13700 | loss: total: 2.64, xy: 0.41, wh: 0.21, conf: 0.99, class: 1.04 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:22:40 INFO ======> Epoch: 4, global_step: 13794.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.9088, Precision: 0.0005, AP: 0.7900
+EVAL: Class 1: Recall: 0.9585, Precision: 0.0005, AP: 0.7891
+EVAL: Class 2: Recall: 0.9325, Precision: 0.0008, AP: 0.7261
+EVAL: Class 3: Recall: 0.9240, Precision: 0.0004, AP: 0.5597
+EVAL: Class 4: Recall: 0.8998, Precision: 0.0007, AP: 0.4846
+EVAL: Class 5: Recall: 0.9671, Precision: 0.0004, AP: 0.8610
+EVAL: Class 6: Recall: 0.9858, Precision: 0.0020, AP: 0.8682
+EVAL: Class 7: Recall: 0.9804, Precision: 0.0006, AP: 0.8816
+EVAL: Class 8: Recall: 0.9511, Precision: 0.0011, AP: 0.5282
+EVAL: Class 9: Recall: 0.9754, Precision: 0.0004, AP: 0.7452
+EVAL: Class 10: Recall: 0.9612, Precision: 0.0005, AP: 0.6822
+EVAL: Class 11: Recall: 0.9816, Precision: 0.0008, AP: 0.8640
+EVAL: Class 12: Recall: 0.9684, Precision: 0.0008, AP: 0.8437
+EVAL: Class 13: Recall: 0.9508, Precision: 0.0006, AP: 0.8137
+EVAL: Class 14: Recall: 0.9704, Precision: 0.0083, AP: 0.7857
+EVAL: Class 15: Recall: 0.9271, Precision: 0.0007, AP: 0.3419
+EVAL: Class 16: Recall: 0.9339, Precision: 0.0006, AP: 0.7103
+EVAL: Class 17: Recall: 0.9623, Precision: 0.0004, AP: 0.7505
+EVAL: Class 18: Recall: 0.9716, Precision: 0.0005, AP: 0.8438
+EVAL: Class 19: Recall: 0.9643, Precision: 0.0005, AP: 0.7248
+EVAL: Recall: 0.9610, Precison: 0.0010, mAP: 0.7297
+EVAL: loss: total: 4.33, xy: 0.44, wh: 0.26, conf: 2.10, class: 1.53
+
+Sun, 17 Nov 2019 17:22:42 INFO Epoch: 5, global_step: 13800 | loss: total: 2.35, xy: 0.51, wh: 0.22, conf: 0.88, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:23:19 INFO Epoch: 5, global_step: 13900 | loss: total: 1.82, xy: 0.36, wh: 0.17, conf: 0.56, class: 0.72 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:23:55 INFO Epoch: 5, global_step: 14000 | loss: total: 1.89, xy: 0.37, wh: 0.18, conf: 0.59, class: 0.75 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 17:24:31 INFO Epoch: 5, global_step: 14100 | loss: total: 1.87, xy: 0.37, wh: 0.18, conf: 0.58, class: 0.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:25:08 INFO Epoch: 5, global_step: 14200 | loss: total: 1.89, xy: 0.37, wh: 0.18, conf: 0.58, class: 0.76 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:25:44 INFO Epoch: 5, global_step: 14300 | loss: total: 1.85, xy: 0.37, wh: 0.18, conf: 0.57, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:26:20 INFO Epoch: 5, global_step: 14400 | loss: total: 1.86, xy: 0.36, wh: 0.18, conf: 0.58, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:26:57 INFO Epoch: 5, global_step: 14500 | loss: total: 1.88, xy: 0.37, wh: 0.18, conf: 0.58, class: 0.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:27:33 INFO Epoch: 5, global_step: 14600 | loss: total: 1.88, xy: 0.36, wh: 0.18, conf: 0.59, class: 0.75 | Last batch: rec: 0.955, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:28:10 INFO Epoch: 5, global_step: 14700 | loss: total: 1.89, xy: 0.37, wh: 0.18, conf: 0.59, class: 0.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:28:46 INFO Epoch: 5, global_step: 14800 | loss: total: 1.88, xy: 0.36, wh: 0.18, conf: 0.59, class: 0.75 | Last batch: rec: 0.833, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:29:22 INFO Epoch: 5, global_step: 14900 | loss: total: 1.87, xy: 0.36, wh: 0.18, conf: 0.59, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:29:59 INFO Epoch: 5, global_step: 15000 | loss: total: 1.87, xy: 0.37, wh: 0.18, conf: 0.59, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:30:35 INFO Epoch: 5, global_step: 15100 | loss: total: 1.87, xy: 0.37, wh: 0.18, conf: 0.59, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:31:12 INFO Epoch: 5, global_step: 15200 | loss: total: 1.88, xy: 0.37, wh: 0.18, conf: 0.59, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:31:48 INFO Epoch: 5, global_step: 15300 | loss: total: 1.86, xy: 0.37, wh: 0.17, conf: 0.59, class: 0.73 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:32:25 INFO Epoch: 5, global_step: 15400 | loss: total: 1.87, xy: 0.37, wh: 0.17, conf: 0.59, class: 0.73 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 17:33:02 INFO Epoch: 5, global_step: 15500 | loss: total: 1.87, xy: 0.37, wh: 0.17, conf: 0.59, class: 0.73 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:33:38 INFO Epoch: 5, global_step: 15600 | loss: total: 1.89, xy: 0.37, wh: 0.18, conf: 0.60, class: 0.74 | Last batch: rec: 0.947, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 17:34:15 INFO Epoch: 5, global_step: 15700 | loss: total: 1.89, xy: 0.37, wh: 0.18, conf: 0.60, class: 0.74 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:34:51 INFO Epoch: 5, global_step: 15800 | loss: total: 1.90, xy: 0.37, wh: 0.18, conf: 0.61, class: 0.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:35:28 INFO Epoch: 5, global_step: 15900 | loss: total: 1.90, xy: 0.37, wh: 0.18, conf: 0.61, class: 0.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:36:04 INFO Epoch: 5, global_step: 16000 | loss: total: 1.91, xy: 0.37, wh: 0.18, conf: 0.61, class: 0.75 | Last batch: rec: 0.962, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 17:36:41 INFO Epoch: 5, global_step: 16100 | loss: total: 1.91, xy: 0.37, wh: 0.18, conf: 0.61, class: 0.75 | Last batch: rec: 0.917, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:37:18 INFO Epoch: 5, global_step: 16200 | loss: total: 1.91, xy: 0.37, wh: 0.18, conf: 0.61, class: 0.75 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 17:37:54 INFO Epoch: 5, global_step: 16300 | loss: total: 1.91, xy: 0.37, wh: 0.18, conf: 0.62, class: 0.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:38:31 INFO Epoch: 5, global_step: 16400 | loss: total: 1.91, xy: 0.37, wh: 0.18, conf: 0.62, class: 0.75 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 17:39:07 INFO Epoch: 5, global_step: 16500 | loss: total: 1.92, xy: 0.37, wh: 0.18, conf: 0.62, class: 0.75 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:39:48 INFO Epoch: 6, global_step: 16600 | loss: total: 1.24, xy: 0.27, wh: 0.12, conf: 0.32, class: 0.53 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:40:25 INFO Epoch: 6, global_step: 16700 | loss: total: 1.37, xy: 0.31, wh: 0.13, conf: 0.35, class: 0.58 | Last batch: rec: 1.000, prec: 0.000 | lr: 0.0001
+Sun, 17 Nov 2019 17:41:01 INFO Epoch: 6, global_step: 16800 | loss: total: 1.38, xy: 0.31, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:41:38 INFO Epoch: 6, global_step: 16900 | loss: total: 1.38, xy: 0.32, wh: 0.14, conf: 0.33, class: 0.59 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 17:42:14 INFO Epoch: 6, global_step: 17000 | loss: total: 1.36, xy: 0.32, wh: 0.14, conf: 0.32, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:42:51 INFO Epoch: 6, global_step: 17100 | loss: total: 1.38, xy: 0.32, wh: 0.14, conf: 0.33, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:43:28 INFO Epoch: 6, global_step: 17200 | loss: total: 1.41, xy: 0.33, wh: 0.14, conf: 0.34, class: 0.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:44:04 INFO Epoch: 6, global_step: 17300 | loss: total: 1.40, xy: 0.32, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:44:41 INFO Epoch: 6, global_step: 17400 | loss: total: 1.39, xy: 0.32, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:45:17 INFO Epoch: 6, global_step: 17500 | loss: total: 1.38, xy: 0.32, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:45:54 INFO Epoch: 6, global_step: 17600 | loss: total: 1.39, xy: 0.32, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:46:31 INFO Epoch: 6, global_step: 17700 | loss: total: 1.40, xy: 0.32, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 0.929, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:47:07 INFO Epoch: 6, global_step: 17800 | loss: total: 1.40, xy: 0.32, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 0.917, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:47:44 INFO Epoch: 6, global_step: 17900 | loss: total: 1.40, xy: 0.32, wh: 0.14, conf: 0.34, class: 0.59 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:48:21 INFO Epoch: 6, global_step: 18000 | loss: total: 1.41, xy: 0.32, wh: 0.15, conf: 0.35, class: 0.59 | Last batch: rec: 0.923, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:48:57 INFO Epoch: 6, global_step: 18100 | loss: total: 1.43, xy: 0.32, wh: 0.15, conf: 0.36, class: 0.60 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 17:49:34 INFO Epoch: 6, global_step: 18200 | loss: total: 1.44, xy: 0.32, wh: 0.15, conf: 0.36, class: 0.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:50:11 INFO Epoch: 6, global_step: 18300 | loss: total: 1.43, xy: 0.32, wh: 0.15, conf: 0.36, class: 0.60 | Last batch: rec: 0.929, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:50:47 INFO Epoch: 6, global_step: 18400 | loss: total: 1.43, xy: 0.32, wh: 0.15, conf: 0.36, class: 0.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:51:24 INFO Epoch: 6, global_step: 18500 | loss: total: 1.43, xy: 0.32, wh: 0.15, conf: 0.36, class: 0.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:52:01 INFO Epoch: 6, global_step: 18600 | loss: total: 1.44, xy: 0.33, wh: 0.15, conf: 0.36, class: 0.61 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 17:52:37 INFO Epoch: 6, global_step: 18700 | loss: total: 1.44, xy: 0.33, wh: 0.15, conf: 0.37, class: 0.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:53:14 INFO Epoch: 6, global_step: 18800 | loss: total: 1.45, xy: 0.33, wh: 0.15, conf: 0.37, class: 0.61 | Last batch: rec: 0.960, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 17:53:50 INFO Epoch: 6, global_step: 18900 | loss: total: 1.45, xy: 0.33, wh: 0.15, conf: 0.37, class: 0.60 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:54:27 INFO Epoch: 6, global_step: 19000 | loss: total: 1.45, xy: 0.33, wh: 0.15, conf: 0.37, class: 0.61 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:55:04 INFO Epoch: 6, global_step: 19100 | loss: total: 1.46, xy: 0.33, wh: 0.15, conf: 0.38, class: 0.61 | Last batch: rec: 0.889, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:55:40 INFO Epoch: 6, global_step: 19200 | loss: total: 1.46, xy: 0.33, wh: 0.15, conf: 0.38, class: 0.61 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 17:56:17 INFO Epoch: 6, global_step: 19300 | loss: total: 1.46, xy: 0.33, wh: 0.15, conf: 0.38, class: 0.61 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:03:42 INFO ======> Epoch: 6, global_step: 19312.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8912, Precision: 0.0006, AP: 0.7855
+EVAL: Class 1: Recall: 0.9318, Precision: 0.0006, AP: 0.8130
+EVAL: Class 2: Recall: 0.9325, Precision: 0.0009, AP: 0.7477
+EVAL: Class 3: Recall: 0.9049, Precision: 0.0005, AP: 0.6000
+EVAL: Class 4: Recall: 0.8785, Precision: 0.0007, AP: 0.5929
+EVAL: Class 5: Recall: 0.9484, Precision: 0.0004, AP: 0.8574
+EVAL: Class 6: Recall: 0.9817, Precision: 0.0025, AP: 0.8776
+EVAL: Class 7: Recall: 0.9525, Precision: 0.0007, AP: 0.8829
+EVAL: Class 8: Recall: 0.9352, Precision: 0.0013, AP: 0.5416
+EVAL: Class 9: Recall: 0.9795, Precision: 0.0004, AP: 0.7622
+EVAL: Class 10: Recall: 0.9272, Precision: 0.0005, AP: 0.6774
+EVAL: Class 11: Recall: 0.9796, Precision: 0.0010, AP: 0.8547
+EVAL: Class 12: Recall: 0.9511, Precision: 0.0010, AP: 0.8672
+EVAL: Class 13: Recall: 0.9477, Precision: 0.0007, AP: 0.8264
+EVAL: Class 14: Recall: 0.9653, Precision: 0.0101, AP: 0.8416
+EVAL: Class 15: Recall: 0.9062, Precision: 0.0008, AP: 0.4014
+EVAL: Class 16: Recall: 0.9421, Precision: 0.0007, AP: 0.7101
+EVAL: Class 17: Recall: 0.9540, Precision: 0.0004, AP: 0.7680
+EVAL: Class 18: Recall: 0.9468, Precision: 0.0005, AP: 0.8412
+EVAL: Class 19: Recall: 0.9383, Precision: 0.0005, AP: 0.7770
+EVAL: Recall: 0.9509, Precison: 0.0012, mAP: 0.7513
+EVAL: loss: total: 4.68, xy: 0.41, wh: 0.24, conf: 2.53, class: 1.50
+
+Sun, 17 Nov 2019 18:04:14 INFO Epoch: 7, global_step: 19400 | loss: total: 1.19, xy: 0.29, wh: 0.13, conf: 0.24, class: 0.52 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:04:50 INFO Epoch: 7, global_step: 19500 | loss: total: 1.12, xy: 0.28, wh: 0.12, conf: 0.21, class: 0.51 | Last batch: rec: 0.937, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:05:27 INFO Epoch: 7, global_step: 19600 | loss: total: 1.16, xy: 0.29, wh: 0.13, conf: 0.21, class: 0.52 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:06:03 INFO Epoch: 7, global_step: 19700 | loss: total: 1.18, xy: 0.30, wh: 0.13, conf: 0.22, class: 0.54 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:06:40 INFO Epoch: 7, global_step: 19800 | loss: total: 1.16, xy: 0.29, wh: 0.13, conf: 0.21, class: 0.53 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:07:17 INFO Epoch: 7, global_step: 19900 | loss: total: 1.15, xy: 0.29, wh: 0.13, conf: 0.21, class: 0.52 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:07:53 INFO Epoch: 7, global_step: 20000 | loss: total: 1.13, xy: 0.29, wh: 0.13, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:08:30 INFO Epoch: 7, global_step: 20100 | loss: total: 1.13, xy: 0.29, wh: 0.13, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:09:07 INFO Epoch: 7, global_step: 20200 | loss: total: 1.14, xy: 0.29, wh: 0.13, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:09:44 INFO Epoch: 7, global_step: 20300 | loss: total: 1.14, xy: 0.29, wh: 0.12, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:10:21 INFO Epoch: 7, global_step: 20400 | loss: total: 1.13, xy: 0.29, wh: 0.12, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:10:57 INFO Epoch: 7, global_step: 20500 | loss: total: 1.13, xy: 0.29, wh: 0.12, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:11:34 INFO Epoch: 7, global_step: 20600 | loss: total: 1.13, xy: 0.29, wh: 0.13, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:12:11 INFO Epoch: 7, global_step: 20700 | loss: total: 1.12, xy: 0.28, wh: 0.12, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:12:47 INFO Epoch: 7, global_step: 20800 | loss: total: 1.12, xy: 0.28, wh: 0.12, conf: 0.21, class: 0.50 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:13:24 INFO Epoch: 7, global_step: 20900 | loss: total: 1.12, xy: 0.28, wh: 0.12, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:14:01 INFO Epoch: 7, global_step: 21000 | loss: total: 1.13, xy: 0.28, wh: 0.13, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:14:37 INFO Epoch: 7, global_step: 21100 | loss: total: 1.13, xy: 0.28, wh: 0.13, conf: 0.21, class: 0.51 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:15:14 INFO Epoch: 7, global_step: 21200 | loss: total: 1.13, xy: 0.28, wh: 0.13, conf: 0.22, class: 0.50 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:15:51 INFO Epoch: 7, global_step: 21300 | loss: total: 1.14, xy: 0.29, wh: 0.13, conf: 0.22, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:16:27 INFO Epoch: 7, global_step: 21400 | loss: total: 1.14, xy: 0.29, wh: 0.13, conf: 0.22, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:17:04 INFO Epoch: 7, global_step: 21500 | loss: total: 1.14, xy: 0.28, wh: 0.13, conf: 0.22, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:17:41 INFO Epoch: 7, global_step: 21600 | loss: total: 1.14, xy: 0.28, wh: 0.13, conf: 0.22, class: 0.51 | Last batch: rec: 0.966, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:18:17 INFO Epoch: 7, global_step: 21700 | loss: total: 1.15, xy: 0.29, wh: 0.13, conf: 0.22, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:18:54 INFO Epoch: 7, global_step: 21800 | loss: total: 1.15, xy: 0.29, wh: 0.13, conf: 0.22, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:19:31 INFO Epoch: 7, global_step: 21900 | loss: total: 1.15, xy: 0.29, wh: 0.13, conf: 0.22, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:20:08 INFO Epoch: 7, global_step: 22000 | loss: total: 1.15, xy: 0.29, wh: 0.13, conf: 0.23, class: 0.51 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:20:49 INFO Epoch: 8, global_step: 22100 | loss: total: 0.99, xy: 0.25, wh: 0.12, conf: 0.14, class: 0.48 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:21:27 INFO Epoch: 8, global_step: 22200 | loss: total: 0.96, xy: 0.25, wh: 0.11, conf: 0.12, class: 0.47 | Last batch: rec: 0.960, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:22:03 INFO Epoch: 8, global_step: 22300 | loss: total: 0.97, xy: 0.26, wh: 0.11, conf: 0.12, class: 0.48 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:22:41 INFO Epoch: 8, global_step: 22400 | loss: total: 0.97, xy: 0.26, wh: 0.11, conf: 0.12, class: 0.48 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:23:18 INFO Epoch: 8, global_step: 22500 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.12, class: 0.47 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:23:55 INFO Epoch: 8, global_step: 22600 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.13, class: 0.47 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:24:31 INFO Epoch: 8, global_step: 22700 | loss: total: 0.94, xy: 0.25, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:25:08 INFO Epoch: 8, global_step: 22800 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:25:44 INFO Epoch: 8, global_step: 22900 | loss: total: 0.94, xy: 0.24, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:26:21 INFO Epoch: 8, global_step: 23000 | loss: total: 0.94, xy: 0.24, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:26:58 INFO Epoch: 8, global_step: 23100 | loss: total: 0.94, xy: 0.24, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:27:34 INFO Epoch: 8, global_step: 23200 | loss: total: 0.94, xy: 0.24, wh: 0.11, conf: 0.13, class: 0.45 | Last batch: rec: 0.875, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:28:11 INFO Epoch: 8, global_step: 23300 | loss: total: 0.94, xy: 0.24, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:28:47 INFO Epoch: 8, global_step: 23400 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 0.951, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 18:29:24 INFO Epoch: 8, global_step: 23500 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:30:00 INFO Epoch: 8, global_step: 23600 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:30:37 INFO Epoch: 8, global_step: 23700 | loss: total: 0.95, xy: 0.24, wh: 0.11, conf: 0.13, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:31:13 INFO Epoch: 8, global_step: 23800 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:31:50 INFO Epoch: 8, global_step: 23900 | loss: total: 0.96, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:32:26 INFO Epoch: 8, global_step: 24000 | loss: total: 0.96, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:33:03 INFO Epoch: 8, global_step: 24100 | loss: total: 0.96, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:33:39 INFO Epoch: 8, global_step: 24200 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:34:16 INFO Epoch: 8, global_step: 24300 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:34:52 INFO Epoch: 8, global_step: 24400 | loss: total: 0.95, xy: 0.24, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:35:29 INFO Epoch: 8, global_step: 24500 | loss: total: 0.95, xy: 0.24, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:36:06 INFO Epoch: 8, global_step: 24600 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 0.957, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:36:42 INFO Epoch: 8, global_step: 24700 | loss: total: 0.95, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:37:19 INFO Epoch: 8, global_step: 24800 | loss: total: 0.96, xy: 0.25, wh: 0.11, conf: 0.14, class: 0.46 | Last batch: rec: 0.919, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 18:43:29 INFO ======> Epoch: 8, global_step: 24830.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8807, Precision: 0.0009, AP: 0.7817
+EVAL: Class 1: Recall: 0.9407, Precision: 0.0008, AP: 0.8345
+EVAL: Class 2: Recall: 0.9129, Precision: 0.0013, AP: 0.7754
+EVAL: Class 3: Recall: 0.8631, Precision: 0.0007, AP: 0.6149
+EVAL: Class 4: Recall: 0.8529, Precision: 0.0011, AP: 0.5997
+EVAL: Class 5: Recall: 0.9577, Precision: 0.0006, AP: 0.8800
+EVAL: Class 6: Recall: 0.9700, Precision: 0.0035, AP: 0.8809
+EVAL: Class 7: Recall: 0.9553, Precision: 0.0010, AP: 0.8944
+EVAL: Class 8: Recall: 0.9312, Precision: 0.0018, AP: 0.5697
+EVAL: Class 9: Recall: 0.9385, Precision: 0.0005, AP: 0.7833
+EVAL: Class 10: Recall: 0.9272, Precision: 0.0008, AP: 0.7485
+EVAL: Class 11: Recall: 0.9611, Precision: 0.0013, AP: 0.8781
+EVAL: Class 12: Recall: 0.9425, Precision: 0.0013, AP: 0.8712
+EVAL: Class 13: Recall: 0.9262, Precision: 0.0009, AP: 0.8237
+EVAL: Class 14: Recall: 0.9424, Precision: 0.0176, AP: 0.8298
+EVAL: Class 15: Recall: 0.8438, Precision: 0.0010, AP: 0.4207
+EVAL: Class 16: Recall: 0.9421, Precision: 0.0010, AP: 0.6945
+EVAL: Class 17: Recall: 0.9372, Precision: 0.0005, AP: 0.7546
+EVAL: Class 18: Recall: 0.9504, Precision: 0.0007, AP: 0.8526
+EVAL: Class 19: Recall: 0.9221, Precision: 0.0008, AP: 0.7447
+EVAL: Recall: 0.9328, Precison: 0.0017, mAP: 0.7616
+EVAL: loss: total: 5.11, xy: 0.42, wh: 0.24, conf: 2.94, class: 1.50
+
+Sun, 17 Nov 2019 18:43:55 INFO Epoch: 9, global_step: 24900 | loss: total: 0.87, xy: 0.22, wh: 0.09, conf: 0.10, class: 0.46 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:44:31 INFO Epoch: 9, global_step: 25000 | loss: total: 0.86, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.45 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:45:07 INFO Epoch: 9, global_step: 25100 | loss: total: 0.84, xy: 0.21, wh: 0.09, conf: 0.10, class: 0.44 | Last batch: rec: 0.909, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:45:44 INFO Epoch: 9, global_step: 25200 | loss: total: 0.83, xy: 0.21, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 0.923, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:46:20 INFO Epoch: 9, global_step: 25300 | loss: total: 0.83, xy: 0.21, wh: 0.09, conf: 0.09, class: 0.43 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:46:57 INFO Epoch: 9, global_step: 25400 | loss: total: 0.82, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:47:33 INFO Epoch: 9, global_step: 25500 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:48:10 INFO Epoch: 9, global_step: 25600 | loss: total: 0.83, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:48:46 INFO Epoch: 9, global_step: 25700 | loss: total: 0.83, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:49:23 INFO Epoch: 9, global_step: 25800 | loss: total: 0.82, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:50:00 INFO Epoch: 9, global_step: 25900 | loss: total: 0.82, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:50:36 INFO Epoch: 9, global_step: 26000 | loss: total: 0.82, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:51:13 INFO Epoch: 9, global_step: 26100 | loss: total: 0.82, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:51:49 INFO Epoch: 9, global_step: 26200 | loss: total: 0.82, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:52:26 INFO Epoch: 9, global_step: 26300 | loss: total: 0.83, xy: 0.20, wh: 0.09, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:53:02 INFO Epoch: 9, global_step: 26400 | loss: total: 0.83, xy: 0.20, wh: 0.10, conf: 0.09, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:53:39 INFO Epoch: 9, global_step: 26500 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 18:54:15 INFO Epoch: 9, global_step: 26600 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:54:52 INFO Epoch: 9, global_step: 26700 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:55:29 INFO Epoch: 9, global_step: 26800 | loss: total: 0.84, xy: 0.20, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:56:05 INFO Epoch: 9, global_step: 26900 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 18:56:42 INFO Epoch: 9, global_step: 27000 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 18:57:18 INFO Epoch: 9, global_step: 27100 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 18:57:55 INFO Epoch: 9, global_step: 27200 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 18:58:32 INFO Epoch: 9, global_step: 27300 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 18:59:08 INFO Epoch: 9, global_step: 27400 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 18:59:45 INFO Epoch: 9, global_step: 27500 | loss: total: 0.84, xy: 0.21, wh: 0.10, conf: 0.10, class: 0.44 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:00:26 INFO Epoch: 10, global_step: 27600 | loss: total: 0.85, xy: 0.23, wh: 0.09, conf: 0.07, class: 0.46 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:01:02 INFO Epoch: 10, global_step: 27700 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:01:39 INFO Epoch: 10, global_step: 27800 | loss: total: 0.73, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.42 | Last batch: rec: 0.937, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:02:15 INFO Epoch: 10, global_step: 27900 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 19:02:52 INFO Epoch: 10, global_step: 28000 | loss: total: 0.71, xy: 0.16, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 19:03:29 INFO Epoch: 10, global_step: 28100 | loss: total: 0.70, xy: 0.16, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 19:04:05 INFO Epoch: 10, global_step: 28200 | loss: total: 0.71, xy: 0.16, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:04:42 INFO Epoch: 10, global_step: 28300 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 0.923, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:05:18 INFO Epoch: 10, global_step: 28400 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:05:55 INFO Epoch: 10, global_step: 28500 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:06:31 INFO Epoch: 10, global_step: 28600 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 19:07:08 INFO Epoch: 10, global_step: 28700 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:07:45 INFO Epoch: 10, global_step: 28800 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:08:21 INFO Epoch: 10, global_step: 28900 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:08:58 INFO Epoch: 10, global_step: 29000 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:09:34 INFO Epoch: 10, global_step: 29100 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:10:11 INFO Epoch: 10, global_step: 29200 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:10:48 INFO Epoch: 10, global_step: 29300 | loss: total: 0.72, xy: 0.17, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:11:24 INFO Epoch: 10, global_step: 29400 | loss: total: 0.73, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:12:01 INFO Epoch: 10, global_step: 29500 | loss: total: 0.73, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:12:37 INFO Epoch: 10, global_step: 29600 | loss: total: 0.74, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:13:14 INFO Epoch: 10, global_step: 29700 | loss: total: 0.73, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:13:50 INFO Epoch: 10, global_step: 29800 | loss: total: 0.73, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 0.955, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:14:27 INFO Epoch: 10, global_step: 29900 | loss: total: 0.74, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:15:04 INFO Epoch: 10, global_step: 30000 | loss: total: 0.74, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:15:40 INFO Epoch: 10, global_step: 30100 | loss: total: 0.74, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 19:16:17 INFO Epoch: 10, global_step: 30200 | loss: total: 0.74, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:16:53 INFO Epoch: 10, global_step: 30300 | loss: total: 0.74, xy: 0.17, wh: 0.08, conf: 0.07, class: 0.42 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:22:04 INFO ======> Epoch: 10, global_step: 30348.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8807, Precision: 0.0013, AP: 0.7896
+EVAL: Class 1: Recall: 0.9407, Precision: 0.0013, AP: 0.8489
+EVAL: Class 2: Recall: 0.9303, Precision: 0.0018, AP: 0.7851
+EVAL: Class 3: Recall: 0.8783, Precision: 0.0011, AP: 0.6196
+EVAL: Class 4: Recall: 0.8635, Precision: 0.0018, AP: 0.6095
+EVAL: Class 5: Recall: 0.9577, Precision: 0.0009, AP: 0.8778
+EVAL: Class 6: Recall: 0.9734, Precision: 0.0058, AP: 0.8765
+EVAL: Class 7: Recall: 0.9581, Precision: 0.0016, AP: 0.8961
+EVAL: Class 8: Recall: 0.9246, Precision: 0.0026, AP: 0.5846
+EVAL: Class 9: Recall: 0.9385, Precision: 0.0008, AP: 0.7731
+EVAL: Class 10: Recall: 0.9369, Precision: 0.0012, AP: 0.7123
+EVAL: Class 11: Recall: 0.9571, Precision: 0.0021, AP: 0.8642
+EVAL: Class 12: Recall: 0.9282, Precision: 0.0020, AP: 0.8553
+EVAL: Class 13: Recall: 0.9292, Precision: 0.0013, AP: 0.8483
+EVAL: Class 14: Recall: 0.9355, Precision: 0.0264, AP: 0.8406
+EVAL: Class 15: Recall: 0.8479, Precision: 0.0016, AP: 0.4134
+EVAL: Class 16: Recall: 0.9504, Precision: 0.0015, AP: 0.6939
+EVAL: Class 17: Recall: 0.9372, Precision: 0.0008, AP: 0.7478
+EVAL: Class 18: Recall: 0.9433, Precision: 0.0010, AP: 0.8689
+EVAL: Class 19: Recall: 0.8896, Precision: 0.0011, AP: 0.7475
+EVAL: Recall: 0.9307, Precison: 0.0025, mAP: 0.7626
+EVAL: loss: total: 5.38, xy: 0.42, wh: 0.25, conf: 3.21, class: 1.50
+
+Sun, 17 Nov 2019 19:22:23 INFO Epoch: 11, global_step: 30400 | loss: total: 0.76, xy: 0.15, wh: 0.09, conf: 0.06, class: 0.45 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:22:59 INFO Epoch: 11, global_step: 30500 | loss: total: 0.69, xy: 0.15, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:23:36 INFO Epoch: 11, global_step: 30600 | loss: total: 0.70, xy: 0.15, wh: 0.07, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:24:12 INFO Epoch: 11, global_step: 30700 | loss: total: 0.70, xy: 0.15, wh: 0.07, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:24:49 INFO Epoch: 11, global_step: 30800 | loss: total: 0.69, xy: 0.15, wh: 0.07, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:25:25 INFO Epoch: 11, global_step: 30900 | loss: total: 0.68, xy: 0.14, wh: 0.07, conf: 0.06, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:26:02 INFO Epoch: 11, global_step: 31000 | loss: total: 0.68, xy: 0.14, wh: 0.07, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:26:38 INFO Epoch: 11, global_step: 31100 | loss: total: 0.68, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:27:15 INFO Epoch: 11, global_step: 31200 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:27:51 INFO Epoch: 11, global_step: 31300 | loss: total: 0.68, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 0.929, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:28:28 INFO Epoch: 11, global_step: 31400 | loss: total: 0.68, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:29:05 INFO Epoch: 11, global_step: 31500 | loss: total: 0.68, xy: 0.14, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:29:41 INFO Epoch: 11, global_step: 31600 | loss: total: 0.68, xy: 0.14, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:30:18 INFO Epoch: 11, global_step: 31700 | loss: total: 0.68, xy: 0.14, wh: 0.08, conf: 0.06, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:30:54 INFO Epoch: 11, global_step: 31800 | loss: total: 0.68, xy: 0.14, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 0.952, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:31:31 INFO Epoch: 11, global_step: 31900 | loss: total: 0.68, xy: 0.14, wh: 0.08, conf: 0.06, class: 0.41 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:32:08 INFO Epoch: 11, global_step: 32000 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:32:44 INFO Epoch: 11, global_step: 32100 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 0.952, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:33:21 INFO Epoch: 11, global_step: 32200 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.06, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:33:57 INFO Epoch: 11, global_step: 32300 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.06, class: 0.40 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 19:34:34 INFO Epoch: 11, global_step: 32400 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:35:10 INFO Epoch: 11, global_step: 32500 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:35:47 INFO Epoch: 11, global_step: 32600 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 0.941, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 19:36:24 INFO Epoch: 11, global_step: 32700 | loss: total: 0.67, xy: 0.14, wh: 0.08, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:37:00 INFO Epoch: 11, global_step: 32800 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:37:37 INFO Epoch: 11, global_step: 32900 | loss: total: 0.67, xy: 0.14, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:38:13 INFO Epoch: 11, global_step: 33000 | loss: total: 0.67, xy: 0.14, wh: 0.08, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:38:50 INFO Epoch: 11, global_step: 33100 | loss: total: 0.67, xy: 0.14, wh: 0.08, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:39:31 INFO Epoch: 12, global_step: 33200 | loss: total: 0.54, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.35 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:40:07 INFO Epoch: 12, global_step: 33300 | loss: total: 0.61, xy: 0.11, wh: 0.06, conf: 0.04, class: 0.39 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:40:44 INFO Epoch: 12, global_step: 33400 | loss: total: 0.61, xy: 0.11, wh: 0.06, conf: 0.05, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:41:21 INFO Epoch: 12, global_step: 33500 | loss: total: 0.62, xy: 0.12, wh: 0.06, conf: 0.05, class: 0.39 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:41:57 INFO Epoch: 12, global_step: 33600 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.05, class: 0.39 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:42:34 INFO Epoch: 12, global_step: 33700 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 19:43:10 INFO Epoch: 12, global_step: 33800 | loss: total: 0.64, xy: 0.12, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.001 | lr: 0.0001
+Sun, 17 Nov 2019 19:43:47 INFO Epoch: 12, global_step: 33900 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:44:24 INFO Epoch: 12, global_step: 34000 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:45:00 INFO Epoch: 12, global_step: 34100 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:45:37 INFO Epoch: 12, global_step: 34200 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.05, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:46:14 INFO Epoch: 12, global_step: 34300 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 19:46:50 INFO Epoch: 12, global_step: 34400 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:47:27 INFO Epoch: 12, global_step: 34500 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:48:03 INFO Epoch: 12, global_step: 34600 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 0.917, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:48:40 INFO Epoch: 12, global_step: 34700 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:49:17 INFO Epoch: 12, global_step: 34800 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 19:49:53 INFO Epoch: 12, global_step: 34900 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:50:30 INFO Epoch: 12, global_step: 35000 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:51:06 INFO Epoch: 12, global_step: 35100 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 19:51:43 INFO Epoch: 12, global_step: 35200 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 19:52:19 INFO Epoch: 12, global_step: 35300 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 19:52:56 INFO Epoch: 12, global_step: 35400 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 19:53:33 INFO Epoch: 12, global_step: 35500 | loss: total: 0.62, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 19:54:09 INFO Epoch: 12, global_step: 35600 | loss: total: 0.63, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 19:54:46 INFO Epoch: 12, global_step: 35700 | loss: total: 0.62, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 19:55:22 INFO Epoch: 12, global_step: 35800 | loss: total: 0.62, xy: 0.12, wh: 0.07, conf: 0.04, class: 0.40 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:00:06 INFO ======> Epoch: 12, global_step: 35866.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8807, Precision: 0.0017, AP: 0.8071
+EVAL: Class 1: Recall: 0.9436, Precision: 0.0018, AP: 0.8110
+EVAL: Class 2: Recall: 0.8954, Precision: 0.0023, AP: 0.7857
+EVAL: Class 3: Recall: 0.8251, Precision: 0.0014, AP: 0.6286
+EVAL: Class 4: Recall: 0.8358, Precision: 0.0023, AP: 0.5828
+EVAL: Class 5: Recall: 0.9296, Precision: 0.0013, AP: 0.8620
+EVAL: Class 6: Recall: 0.9650, Precision: 0.0075, AP: 0.8737
+EVAL: Class 7: Recall: 0.9525, Precision: 0.0021, AP: 0.9002
+EVAL: Class 8: Recall: 0.8730, Precision: 0.0036, AP: 0.5812
+EVAL: Class 9: Recall: 0.9344, Precision: 0.0011, AP: 0.7772
+EVAL: Class 10: Recall: 0.8981, Precision: 0.0015, AP: 0.7158
+EVAL: Class 11: Recall: 0.9489, Precision: 0.0029, AP: 0.8703
+EVAL: Class 12: Recall: 0.9224, Precision: 0.0027, AP: 0.8701
+EVAL: Class 13: Recall: 0.9138, Precision: 0.0017, AP: 0.8456
+EVAL: Class 14: Recall: 0.9251, Precision: 0.0363, AP: 0.8339
+EVAL: Class 15: Recall: 0.7875, Precision: 0.0020, AP: 0.4467
+EVAL: Class 16: Recall: 0.9256, Precision: 0.0022, AP: 0.7245
+EVAL: Class 17: Recall: 0.9498, Precision: 0.0011, AP: 0.7611
+EVAL: Class 18: Recall: 0.9291, Precision: 0.0013, AP: 0.8490
+EVAL: Class 19: Recall: 0.8831, Precision: 0.0015, AP: 0.7504
+EVAL: Recall: 0.9137, Precison: 0.0034, mAP: 0.7638
+EVAL: loss: total: 5.60, xy: 0.42, wh: 0.24, conf: 3.46, class: 1.48
+
+Sun, 17 Nov 2019 20:00:18 INFO Epoch: 13, global_step: 35900 | loss: total: 0.48, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.33 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:00:55 INFO Epoch: 13, global_step: 36000 | loss: total: 0.56, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:01:31 INFO Epoch: 13, global_step: 36100 | loss: total: 0.56, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.37 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:02:08 INFO Epoch: 13, global_step: 36200 | loss: total: 0.56, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:02:44 INFO Epoch: 13, global_step: 36300 | loss: total: 0.55, xy: 0.09, wh: 0.06, conf: 0.03, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:03:21 INFO Epoch: 13, global_step: 36400 | loss: total: 0.56, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:03:57 INFO Epoch: 13, global_step: 36500 | loss: total: 0.56, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 20:04:34 INFO Epoch: 13, global_step: 36600 | loss: total: 0.57, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:05:10 INFO Epoch: 13, global_step: 36700 | loss: total: 0.57, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:05:47 INFO Epoch: 13, global_step: 36800 | loss: total: 0.57, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:06:23 INFO Epoch: 13, global_step: 36900 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:07:00 INFO Epoch: 13, global_step: 37000 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:07:37 INFO Epoch: 13, global_step: 37100 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:08:13 INFO Epoch: 13, global_step: 37200 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:08:50 INFO Epoch: 13, global_step: 37300 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:09:26 INFO Epoch: 13, global_step: 37400 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:10:03 INFO Epoch: 13, global_step: 37500 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:10:39 INFO Epoch: 13, global_step: 37600 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:11:16 INFO Epoch: 13, global_step: 37700 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 0.923, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:11:53 INFO Epoch: 13, global_step: 37800 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:12:29 INFO Epoch: 13, global_step: 37900 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:13:06 INFO Epoch: 13, global_step: 38000 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:13:42 INFO Epoch: 13, global_step: 38100 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:14:19 INFO Epoch: 13, global_step: 38200 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:14:55 INFO Epoch: 13, global_step: 38300 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 0.923, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:15:32 INFO Epoch: 13, global_step: 38400 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:16:09 INFO Epoch: 13, global_step: 38500 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:16:45 INFO Epoch: 13, global_step: 38600 | loss: total: 0.58, xy: 0.10, wh: 0.06, conf: 0.03, class: 0.39 | Last batch: rec: 0.944, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:17:26 INFO Epoch: 14, global_step: 38700 | loss: total: 0.58, xy: 0.09, wh: 0.06, conf: 0.03, class: 0.40 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 20:18:02 INFO Epoch: 14, global_step: 38800 | loss: total: 0.56, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:18:39 INFO Epoch: 14, global_step: 38900 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:19:16 INFO Epoch: 14, global_step: 39000 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:19:52 INFO Epoch: 14, global_step: 39100 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:20:29 INFO Epoch: 14, global_step: 39200 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:21:05 INFO Epoch: 14, global_step: 39300 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:21:42 INFO Epoch: 14, global_step: 39400 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:22:18 INFO Epoch: 14, global_step: 39500 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:22:55 INFO Epoch: 14, global_step: 39600 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 20:23:32 INFO Epoch: 14, global_step: 39700 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:24:08 INFO Epoch: 14, global_step: 39800 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:24:45 INFO Epoch: 14, global_step: 39900 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:25:21 INFO Epoch: 14, global_step: 40000 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 20:25:58 INFO Epoch: 14, global_step: 40100 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:26:35 INFO Epoch: 14, global_step: 40200 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 0.909, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:27:11 INFO Epoch: 14, global_step: 40300 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 0.933, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 20:27:48 INFO Epoch: 14, global_step: 40400 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:28:24 INFO Epoch: 14, global_step: 40500 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.016 | lr: 0.0001
+Sun, 17 Nov 2019 20:29:01 INFO Epoch: 14, global_step: 40600 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:29:37 INFO Epoch: 14, global_step: 40700 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:30:14 INFO Epoch: 14, global_step: 40800 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:30:51 INFO Epoch: 14, global_step: 40900 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:31:27 INFO Epoch: 14, global_step: 41000 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 20:32:04 INFO Epoch: 14, global_step: 41100 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:32:40 INFO Epoch: 14, global_step: 41200 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:33:17 INFO Epoch: 14, global_step: 41300 | loss: total: 0.55, xy: 0.09, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:37:30 INFO ======> Epoch: 14, global_step: 41384.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8632, Precision: 0.0027, AP: 0.7894
+EVAL: Class 1: Recall: 0.9377, Precision: 0.0028, AP: 0.8454
+EVAL: Class 2: Recall: 0.8889, Precision: 0.0037, AP: 0.7736
+EVAL: Class 3: Recall: 0.8479, Precision: 0.0023, AP: 0.6438
+EVAL: Class 4: Recall: 0.8358, Precision: 0.0037, AP: 0.6113
+EVAL: Class 5: Recall: 0.9390, Precision: 0.0023, AP: 0.8723
+EVAL: Class 6: Recall: 0.9584, Precision: 0.0125, AP: 0.8763
+EVAL: Class 7: Recall: 0.9413, Precision: 0.0036, AP: 0.9015
+EVAL: Class 8: Recall: 0.9048, Precision: 0.0061, AP: 0.5952
+EVAL: Class 9: Recall: 0.9262, Precision: 0.0019, AP: 0.8024
+EVAL: Class 10: Recall: 0.9126, Precision: 0.0026, AP: 0.7344
+EVAL: Class 11: Recall: 0.9468, Precision: 0.0049, AP: 0.8709
+EVAL: Class 12: Recall: 0.9339, Precision: 0.0045, AP: 0.8745
+EVAL: Class 13: Recall: 0.9354, Precision: 0.0027, AP: 0.8498
+EVAL: Class 14: Recall: 0.9150, Precision: 0.0516, AP: 0.8329
+EVAL: Class 15: Recall: 0.7625, Precision: 0.0032, AP: 0.4234
+EVAL: Class 16: Recall: 0.9050, Precision: 0.0035, AP: 0.7215
+EVAL: Class 17: Recall: 0.9331, Precision: 0.0018, AP: 0.7549
+EVAL: Class 18: Recall: 0.9326, Precision: 0.0021, AP: 0.8620
+EVAL: Class 19: Recall: 0.8766, Precision: 0.0023, AP: 0.7561
+EVAL: Recall: 0.9098, Precison: 0.0055, mAP: 0.7696
+EVAL: loss: total: 5.68, xy: 0.43, wh: 0.23, conf: 3.56, class: 1.45
+
+Sun, 17 Nov 2019 20:37:36 INFO Epoch: 15, global_step: 41400 | loss: total: 0.50, xy: 0.07, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:38:13 INFO Epoch: 15, global_step: 41500 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:38:49 INFO Epoch: 15, global_step: 41600 | loss: total: 0.53, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.39 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:39:26 INFO Epoch: 15, global_step: 41700 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:40:02 INFO Epoch: 15, global_step: 41800 | loss: total: 0.55, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:40:39 INFO Epoch: 15, global_step: 41900 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.39 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 20:41:15 INFO Epoch: 15, global_step: 42000 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:41:52 INFO Epoch: 15, global_step: 42100 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.03, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:42:29 INFO Epoch: 15, global_step: 42200 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:43:05 INFO Epoch: 15, global_step: 42300 | loss: total: 0.54, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.39 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:43:42 INFO Epoch: 15, global_step: 42400 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 20:44:18 INFO Epoch: 15, global_step: 42500 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:44:55 INFO Epoch: 15, global_step: 42600 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.002 | lr: 0.0001
+Sun, 17 Nov 2019 20:45:32 INFO Epoch: 15, global_step: 42700 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:46:08 INFO Epoch: 15, global_step: 42800 | loss: total: 0.52, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:46:45 INFO Epoch: 15, global_step: 42900 | loss: total: 0.52, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 20:47:21 INFO Epoch: 15, global_step: 43000 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:47:58 INFO Epoch: 15, global_step: 43100 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:48:34 INFO Epoch: 15, global_step: 43200 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:49:11 INFO Epoch: 15, global_step: 43300 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 0.941, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 20:49:48 INFO Epoch: 15, global_step: 43400 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:50:24 INFO Epoch: 15, global_step: 43500 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:51:01 INFO Epoch: 15, global_step: 43600 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:51:37 INFO Epoch: 15, global_step: 43700 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:52:14 INFO Epoch: 15, global_step: 43800 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:52:51 INFO Epoch: 15, global_step: 43900 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 20:53:27 INFO Epoch: 15, global_step: 44000 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:54:04 INFO Epoch: 15, global_step: 44100 | loss: total: 0.53, xy: 0.08, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:54:45 INFO Epoch: 16, global_step: 44200 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.01, class: 0.38 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 20:55:21 INFO Epoch: 16, global_step: 44300 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.01, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 20:55:58 INFO Epoch: 16, global_step: 44400 | loss: total: 0.50, xy: 0.07, wh: 0.05, conf: 0.01, class: 0.38 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:56:34 INFO Epoch: 16, global_step: 44500 | loss: total: 0.50, xy: 0.07, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 20:57:11 INFO Epoch: 16, global_step: 44600 | loss: total: 0.49, xy: 0.07, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 20:57:48 INFO Epoch: 16, global_step: 44700 | loss: total: 0.50, xy: 0.07, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 20:58:24 INFO Epoch: 16, global_step: 44800 | loss: total: 0.50, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 20:59:01 INFO Epoch: 16, global_step: 44900 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 20:59:37 INFO Epoch: 16, global_step: 45000 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 0.917, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:00:14 INFO Epoch: 16, global_step: 45100 | loss: total: 0.50, xy: 0.07, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:00:51 INFO Epoch: 16, global_step: 45200 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 0.875, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 21:01:27 INFO Epoch: 16, global_step: 45300 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 21:02:04 INFO Epoch: 16, global_step: 45400 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 21:02:40 INFO Epoch: 16, global_step: 45500 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 21:03:17 INFO Epoch: 16, global_step: 45600 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:03:54 INFO Epoch: 16, global_step: 45700 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 21:04:30 INFO Epoch: 16, global_step: 45800 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:05:07 INFO Epoch: 16, global_step: 45900 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:05:43 INFO Epoch: 16, global_step: 46000 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:06:20 INFO Epoch: 16, global_step: 46100 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 0.941, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:06:57 INFO Epoch: 16, global_step: 46200 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:07:33 INFO Epoch: 16, global_step: 46300 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:08:10 INFO Epoch: 16, global_step: 46400 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 21:08:46 INFO Epoch: 16, global_step: 46500 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:09:23 INFO Epoch: 16, global_step: 46600 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:10:00 INFO Epoch: 16, global_step: 46700 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 21:10:36 INFO Epoch: 16, global_step: 46800 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:11:13 INFO Epoch: 16, global_step: 46900 | loss: total: 0.51, xy: 0.07, wh: 0.05, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:14:46 INFO ======> Epoch: 16, global_step: 46902.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8737, Precision: 0.0034, AP: 0.7904
+EVAL: Class 1: Recall: 0.9258, Precision: 0.0036, AP: 0.8634
+EVAL: Class 2: Recall: 0.8824, Precision: 0.0045, AP: 0.7783
+EVAL: Class 3: Recall: 0.8403, Precision: 0.0029, AP: 0.6323
+EVAL: Class 4: Recall: 0.8145, Precision: 0.0047, AP: 0.6139
+EVAL: Class 5: Recall: 0.9437, Precision: 0.0031, AP: 0.8721
+EVAL: Class 6: Recall: 0.9575, Precision: 0.0155, AP: 0.8784
+EVAL: Class 7: Recall: 0.9441, Precision: 0.0046, AP: 0.8996
+EVAL: Class 8: Recall: 0.8915, Precision: 0.0073, AP: 0.5954
+EVAL: Class 9: Recall: 0.9262, Precision: 0.0024, AP: 0.7910
+EVAL: Class 10: Recall: 0.9223, Precision: 0.0033, AP: 0.7454
+EVAL: Class 11: Recall: 0.9571, Precision: 0.0062, AP: 0.8820
+EVAL: Class 12: Recall: 0.9253, Precision: 0.0060, AP: 0.8658
+EVAL: Class 13: Recall: 0.9108, Precision: 0.0032, AP: 0.8387
+EVAL: Class 14: Recall: 0.9156, Precision: 0.0625, AP: 0.8324
+EVAL: Class 15: Recall: 0.7792, Precision: 0.0040, AP: 0.4410
+EVAL: Class 16: Recall: 0.9008, Precision: 0.0045, AP: 0.7420
+EVAL: Class 17: Recall: 0.9372, Precision: 0.0022, AP: 0.7631
+EVAL: Class 18: Recall: 0.9255, Precision: 0.0026, AP: 0.8641
+EVAL: Class 19: Recall: 0.8831, Precision: 0.0029, AP: 0.7564
+EVAL: Recall: 0.9083, Precison: 0.0069, mAP: 0.7723
+EVAL: loss: total: 5.72, xy: 0.43, wh: 0.23, conf: 3.62, class: 1.44
+
+Sun, 17 Nov 2019 21:15:21 INFO Epoch: 17, global_step: 47000 | loss: total: 0.50, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.39 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:15:58 INFO Epoch: 17, global_step: 47100 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:16:34 INFO Epoch: 17, global_step: 47200 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.38 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:17:11 INFO Epoch: 17, global_step: 47300 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:17:47 INFO Epoch: 17, global_step: 47400 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 21:18:24 INFO Epoch: 17, global_step: 47500 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 21:19:01 INFO Epoch: 17, global_step: 47600 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.014 | lr: 0.0001
+Sun, 17 Nov 2019 21:19:37 INFO Epoch: 17, global_step: 47700 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:20:14 INFO Epoch: 17, global_step: 47800 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:20:50 INFO Epoch: 17, global_step: 47900 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:21:27 INFO Epoch: 17, global_step: 48000 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:22:04 INFO Epoch: 17, global_step: 48100 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:22:40 INFO Epoch: 17, global_step: 48200 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:23:17 INFO Epoch: 17, global_step: 48300 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:23:54 INFO Epoch: 17, global_step: 48400 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:24:30 INFO Epoch: 17, global_step: 48500 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.015 | lr: 0.0001
+Sun, 17 Nov 2019 21:25:07 INFO Epoch: 17, global_step: 48600 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 21:25:43 INFO Epoch: 17, global_step: 48700 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:26:20 INFO Epoch: 17, global_step: 48800 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:26:57 INFO Epoch: 17, global_step: 48900 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 21:27:33 INFO Epoch: 17, global_step: 49000 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.013 | lr: 0.0001
+Sun, 17 Nov 2019 21:28:10 INFO Epoch: 17, global_step: 49100 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 21:28:47 INFO Epoch: 17, global_step: 49200 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:29:23 INFO Epoch: 17, global_step: 49300 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 21:30:00 INFO Epoch: 17, global_step: 49400 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 21:30:37 INFO Epoch: 17, global_step: 49500 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 0.974, prec: 0.028 | lr: 0.0001
+Sun, 17 Nov 2019 21:31:13 INFO Epoch: 17, global_step: 49600 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:31:54 INFO Epoch: 18, global_step: 49700 | loss: total: 0.42, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.32 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 21:32:31 INFO Epoch: 18, global_step: 49800 | loss: total: 0.45, xy: 0.05, wh: 0.04, conf: 0.02, class: 0.34 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:33:07 INFO Epoch: 18, global_step: 49900 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 0.947, prec: 0.014 | lr: 0.0001
+Sun, 17 Nov 2019 21:33:44 INFO Epoch: 18, global_step: 50000 | loss: total: 0.49, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 21:34:21 INFO Epoch: 18, global_step: 50100 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:34:57 INFO Epoch: 18, global_step: 50200 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.013 | lr: 0.0001
+Sun, 17 Nov 2019 21:35:34 INFO Epoch: 18, global_step: 50300 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 21:36:10 INFO Epoch: 18, global_step: 50400 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 21:36:47 INFO Epoch: 18, global_step: 50500 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:37:24 INFO Epoch: 18, global_step: 50600 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:38:00 INFO Epoch: 18, global_step: 50700 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:38:37 INFO Epoch: 18, global_step: 50800 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.022 | lr: 0.0001
+Sun, 17 Nov 2019 21:39:14 INFO Epoch: 18, global_step: 50900 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.003 | lr: 0.0001
+Sun, 17 Nov 2019 21:39:50 INFO Epoch: 18, global_step: 51000 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.02, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 21:40:27 INFO Epoch: 18, global_step: 51100 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:41:04 INFO Epoch: 18, global_step: 51200 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:41:40 INFO Epoch: 18, global_step: 51300 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.021 | lr: 0.0001
+Sun, 17 Nov 2019 21:42:17 INFO Epoch: 18, global_step: 51400 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:42:53 INFO Epoch: 18, global_step: 51500 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:43:30 INFO Epoch: 18, global_step: 51600 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.018 | lr: 0.0001
+Sun, 17 Nov 2019 21:44:07 INFO Epoch: 18, global_step: 51700 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 21:44:43 INFO Epoch: 18, global_step: 51800 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:45:20 INFO Epoch: 18, global_step: 51900 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 0.944, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 21:45:56 INFO Epoch: 18, global_step: 52000 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:46:33 INFO Epoch: 18, global_step: 52100 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 0.937, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 21:47:10 INFO Epoch: 18, global_step: 52200 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:47:46 INFO Epoch: 18, global_step: 52300 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 21:48:23 INFO Epoch: 18, global_step: 52400 | loss: total: 0.48, xy: 0.06, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:51:51 INFO ======> Epoch: 18, global_step: 52420.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8667, Precision: 0.0043, AP: 0.7949
+EVAL: Class 1: Recall: 0.9347, Precision: 0.0048, AP: 0.8323
+EVAL: Class 2: Recall: 0.8932, Precision: 0.0057, AP: 0.7735
+EVAL: Class 3: Recall: 0.8175, Precision: 0.0039, AP: 0.6294
+EVAL: Class 4: Recall: 0.8145, Precision: 0.0060, AP: 0.6163
+EVAL: Class 5: Recall: 0.9390, Precision: 0.0040, AP: 0.8760
+EVAL: Class 6: Recall: 0.9567, Precision: 0.0197, AP: 0.8754
+EVAL: Class 7: Recall: 0.9330, Precision: 0.0059, AP: 0.8919
+EVAL: Class 8: Recall: 0.8796, Precision: 0.0095, AP: 0.6047
+EVAL: Class 9: Recall: 0.9221, Precision: 0.0033, AP: 0.7831
+EVAL: Class 10: Recall: 0.8981, Precision: 0.0044, AP: 0.7262
+EVAL: Class 11: Recall: 0.9468, Precision: 0.0079, AP: 0.8698
+EVAL: Class 12: Recall: 0.9253, Precision: 0.0078, AP: 0.8716
+EVAL: Class 13: Recall: 0.8954, Precision: 0.0040, AP: 0.8289
+EVAL: Class 14: Recall: 0.9125, Precision: 0.0785, AP: 0.8308
+EVAL: Class 15: Recall: 0.7750, Precision: 0.0052, AP: 0.4321
+EVAL: Class 16: Recall: 0.8926, Precision: 0.0058, AP: 0.7428
+EVAL: Class 17: Recall: 0.9414, Precision: 0.0029, AP: 0.7718
+EVAL: Class 18: Recall: 0.9326, Precision: 0.0034, AP: 0.8657
+EVAL: Class 19: Recall: 0.8669, Precision: 0.0037, AP: 0.7468
+EVAL: Recall: 0.9041, Precison: 0.0089, mAP: 0.7682
+EVAL: loss: total: 5.83, xy: 0.43, wh: 0.22, conf: 3.71, class: 1.47
+
+Sun, 17 Nov 2019 21:52:20 INFO Epoch: 19, global_step: 52500 | loss: total: 0.48, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.38 | Last batch: rec: 1.000, prec: 0.014 | lr: 0.0001
+Sun, 17 Nov 2019 21:52:56 INFO Epoch: 19, global_step: 52600 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:53:33 INFO Epoch: 19, global_step: 52700 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:54:10 INFO Epoch: 19, global_step: 52800 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.011 | lr: 0.0001
+Sun, 17 Nov 2019 21:54:46 INFO Epoch: 19, global_step: 52900 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:55:23 INFO Epoch: 19, global_step: 53000 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 21:56:00 INFO Epoch: 19, global_step: 53100 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 21:56:36 INFO Epoch: 19, global_step: 53200 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 21:57:13 INFO Epoch: 19, global_step: 53300 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.019 | lr: 0.0001
+Sun, 17 Nov 2019 21:57:50 INFO Epoch: 19, global_step: 53400 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 21:58:26 INFO Epoch: 19, global_step: 53500 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.015 | lr: 0.0001
+Sun, 17 Nov 2019 21:59:03 INFO Epoch: 19, global_step: 53600 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.014 | lr: 0.0001
+Sun, 17 Nov 2019 21:59:40 INFO Epoch: 19, global_step: 53700 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 22:00:16 INFO Epoch: 19, global_step: 53800 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 0.978, prec: 0.035 | lr: 0.0001
+Sun, 17 Nov 2019 22:00:53 INFO Epoch: 19, global_step: 53900 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.013 | lr: 0.0001
+Sun, 17 Nov 2019 22:01:29 INFO Epoch: 19, global_step: 54000 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 22:02:06 INFO Epoch: 19, global_step: 54100 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 22:02:43 INFO Epoch: 19, global_step: 54200 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.005 | lr: 0.0001
+Sun, 17 Nov 2019 22:03:19 INFO Epoch: 19, global_step: 54300 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 22:03:56 INFO Epoch: 19, global_step: 54400 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 22:04:33 INFO Epoch: 19, global_step: 54500 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.013 | lr: 0.0001
+Sun, 17 Nov 2019 22:05:09 INFO Epoch: 19, global_step: 54600 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.015 | lr: 0.0001
+Sun, 17 Nov 2019 22:05:46 INFO Epoch: 19, global_step: 54700 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 22:06:23 INFO Epoch: 19, global_step: 54800 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.015 | lr: 0.0001
+Sun, 17 Nov 2019 22:06:59 INFO Epoch: 19, global_step: 54900 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 22:07:36 INFO Epoch: 19, global_step: 55000 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 22:08:13 INFO Epoch: 19, global_step: 55100 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 0.947, prec: 0.014 | lr: 0.0001
+Sun, 17 Nov 2019 22:08:54 INFO Epoch: 20, global_step: 55200 | loss: total: 0.46, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.36 | Last batch: rec: 1.000, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 22:09:30 INFO Epoch: 20, global_step: 55300 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 0.941, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 22:10:08 INFO Epoch: 20, global_step: 55400 | loss: total: 0.45, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.36 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 22:10:45 INFO Epoch: 20, global_step: 55500 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 0.917, prec: 0.010 | lr: 0.0001
+Sun, 17 Nov 2019 22:11:23 INFO Epoch: 20, global_step: 55600 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 22:12:00 INFO Epoch: 20, global_step: 55700 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 0.933, prec: 0.008 | lr: 0.0001
+Sun, 17 Nov 2019 22:12:37 INFO Epoch: 20, global_step: 55800 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 22:13:14 INFO Epoch: 20, global_step: 55900 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 22:13:51 INFO Epoch: 20, global_step: 56000 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 22:14:27 INFO Epoch: 20, global_step: 56100 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.014 | lr: 0.0001
+Sun, 17 Nov 2019 22:15:04 INFO Epoch: 20, global_step: 56200 | loss: total: 0.46, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 22:15:41 INFO Epoch: 20, global_step: 56300 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.004 | lr: 0.0001
+Sun, 17 Nov 2019 22:16:18 INFO Epoch: 20, global_step: 56400 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 22:16:55 INFO Epoch: 20, global_step: 56500 | loss: total: 0.46, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.012 | lr: 0.0001
+Sun, 17 Nov 2019 22:17:32 INFO Epoch: 20, global_step: 56600 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.016 | lr: 0.0001
+Sun, 17 Nov 2019 22:18:08 INFO Epoch: 20, global_step: 56700 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 22:18:45 INFO Epoch: 20, global_step: 56800 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 22:19:22 INFO Epoch: 20, global_step: 56900 | loss: total: 0.46, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.007 | lr: 0.0001
+Sun, 17 Nov 2019 22:19:58 INFO Epoch: 20, global_step: 57000 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.015 | lr: 0.0001
+Sun, 17 Nov 2019 22:20:35 INFO Epoch: 20, global_step: 57100 | loss: total: 0.47, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.017 | lr: 0.0001
+Sun, 17 Nov 2019 22:21:12 INFO Epoch: 20, global_step: 57200 | loss: total: 0.46, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.015 | lr: 0.0001
+Sun, 17 Nov 2019 22:21:49 INFO Epoch: 20, global_step: 57300 | loss: total: 0.46, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.014 | lr: 0.0001
+Sun, 17 Nov 2019 22:22:26 INFO Epoch: 20, global_step: 57400 | loss: total: 0.46, xy: 0.05, wh: 0.04, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 22:23:02 INFO Epoch: 20, global_step: 57500 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.006 | lr: 0.0001
+Sun, 17 Nov 2019 22:23:39 INFO Epoch: 20, global_step: 57600 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.016 | lr: 0.0001
+Sun, 17 Nov 2019 22:24:16 INFO Epoch: 20, global_step: 57700 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.37 | Last batch: rec: 1.000, prec: 0.009 | lr: 0.0001
+Sun, 17 Nov 2019 22:24:52 INFO Epoch: 20, global_step: 57800 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.36 | Last batch: rec: 1.000, prec: 0.016 | lr: 0.0001
+Sun, 17 Nov 2019 22:25:29 INFO Epoch: 20, global_step: 57900 | loss: total: 0.46, xy: 0.05, wh: 0.03, conf: 0.01, class: 0.36 | Last batch: rec: 1.000, prec: 0.019 | lr: 0.0001
+Sun, 17 Nov 2019 22:28:57 INFO ======> Epoch: 20, global_step: 57938.0, lr: 0.0001 <======
+EVAL: Class 0: Recall: 0.8596, Precision: 0.0055, AP: 0.7943
+EVAL: Class 1: Recall: 0.9139, Precision: 0.0061, AP: 0.8344
+EVAL: Class 2: Recall: 0.8802, Precision: 0.0071, AP: 0.7703
+EVAL: Class 3: Recall: 0.8175, Precision: 0.0050, AP: 0.6184
+EVAL: Class 4: Recall: 0.8124, Precision: 0.0080, AP: 0.6188
+EVAL: Class 5: Recall: 0.9437, Precision: 0.0054, AP: 0.8812
+EVAL: Class 6: Recall: 0.9609, Precision: 0.0254, AP: 0.8854
+EVAL: Class 7: Recall: 0.9358, Precision: 0.0076, AP: 0.8977
+EVAL: Class 8: Recall: 0.8690, Precision: 0.0124, AP: 0.5903
+EVAL: Class 9: Recall: 0.9221, Precision: 0.0044, AP: 0.8078
+EVAL: Class 10: Recall: 0.9078, Precision: 0.0057, AP: 0.7289
+EVAL: Class 11: Recall: 0.9530, Precision: 0.0106, AP: 0.8762
+EVAL: Class 12: Recall: 0.9167, Precision: 0.0103, AP: 0.8633
+EVAL: Class 13: Recall: 0.9077, Precision: 0.0050, AP: 0.8389
+EVAL: Class 14: Recall: 0.9148, Precision: 0.0933, AP: 0.8403
+EVAL: Class 15: Recall: 0.7688, Precision: 0.0066, AP: 0.4306
+EVAL: Class 16: Recall: 0.9091, Precision: 0.0077, AP: 0.7397
+EVAL: Class 17: Recall: 0.9331, Precision: 0.0037, AP: 0.7765
+EVAL: Class 18: Recall: 0.9255, Precision: 0.0042, AP: 0.8502
+EVAL: Class 19: Recall: 0.8669, Precision: 0.0046, AP: 0.7530
+EVAL: Recall: 0.9038, Precison: 0.0115, mAP: 0.7698
+EVAL: loss: total: 5.88, xy: 0.43, wh: 0.22, conf: 3.78, class: 1.46
+
